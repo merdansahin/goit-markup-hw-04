@@ -309,7 +309,7 @@ li {
 }
 .icon-box:hover,
 .icon-box:focus {
-  background-color: #42f5bf;
+  background-color: #404bbf;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
@@ -387,13 +387,12 @@ li {
   padding-left: 30px;
   background: #4d5ae5;
   overflow: hidden;
-  transform: translateY(-100%);
+  transform: translateY(100%);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  transition: transform 250ms linear;
 }
 
 .card-img {
@@ -403,6 +402,7 @@ li {
 
 .card-img:hover .card-text {
   transform: translateY(0%);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .down-picture {
